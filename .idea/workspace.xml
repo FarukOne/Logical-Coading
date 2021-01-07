@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae59bba0-1fd2-427f-ad82-4d21ac279653" name="Default Changelist" comment="" />
+    <list default="true" id="ae59bba0-1fd2-427f-ad82-4d21ac279653" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/compound.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpDebugGeneral" break_at_first_line="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -17,6 +28,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1magxwLsJPlRpwVP9TzmEqDVbpb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,11 +106,27 @@
       <workItem from="1609935295978" duration="1791000" />
       <workItem from="1609937105323" duration="1332000" />
       <workItem from="1609938960169" duration="612000" />
+      <workItem from="1609999751664" duration="1792000" />
+      <workItem from="1610001582121" duration="1783000" />
+      <workItem from="1610003475849" duration="1812000" />
+      <workItem from="1610005343461" duration="1061000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="19" key="#CLI_Interpreters" timestamp="1609738778969">
@@ -165,10 +193,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609738717087" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609934652572">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1610006457782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609934652572" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610006457782" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609739132442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
