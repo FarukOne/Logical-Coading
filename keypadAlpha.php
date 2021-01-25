@@ -27,7 +27,6 @@ $num =0;
 ?>
 <html>
 <table >
-
     <?php
 //   foreach ($arr as $val){
 //       foreach ($val as $value){

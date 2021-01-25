@@ -17,7 +17,6 @@ $num =0;
 ?>
 <html>
 <table >
-
     <?php
     for($i=1; $i<=3; $i++){
         echo "<tr>";
