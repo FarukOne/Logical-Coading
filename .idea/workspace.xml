@@ -1,16 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae59bba0-1fd2-427f-ad82-4d21ac279653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pattern3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemArray1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemArray2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/returnArray.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverceString.php" afterDir="false" />
+    <list default="true" id="ae59bba0-1fd2-427f-ad82-4d21ac279653" name="Default Changelist" comment="Swap">
+      <change afterPath="$PROJECT_DIR$/Task/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/.idea/Task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/AA/AA/SS/Sas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.github/workflows/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/bin/cake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/bin/cake.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/bin/cake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/Migrations/20210129094118_CreateUsers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/Migrations/20210129103207_CreateStatements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/Migrations/schema-dump-default.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/Seeds/StatementsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/Seeds/UsersSeed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/Seeds/statements.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/app_local.example.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/bootstrap_cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/paths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/requirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/schema/i18n.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/config/schema/sessions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/phpcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/phpstan.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/plugins/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/resources/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Command/ConsoleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Console/Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Controller/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Controller/Component/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Controller/ErrorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Controller/PagesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Controller/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Model/Behavior/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Model/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/Model/Table/UsersTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/View/AjaxView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/View/AppView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/View/Cell/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/src/View/Helper/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Error/error400.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Error/error500.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Pages/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Users/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Users/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Users/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Users/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Users/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/cell/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/element/flash/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/element/flash/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/element/flash/success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/element/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/element/navbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/element/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/email/html/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/email/text/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/layout/ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/layout/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/layout/email/html/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/layout/email/text/default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/layout/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/Fixture/UsersFixture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/ApplicationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/Controller/Component/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/Controller/PagesControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/Controller/UsersControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/Model/Behavior/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/Model/Table/UsersTableTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/TestCase/View/Helper/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/cake.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/material-dashboard-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/material-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/material-dashboard.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/material-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/milligram.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/font/cakedingbats-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/font/cakedingbats-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/font/cakedingbats-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/font/cakedingbats-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/font/cakedingbats-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/cake-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/cake.icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/cake.logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/cake.power.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/core/bootstrap-material-design.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/core/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/material-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/material-dashboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/material-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/arrive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/bootstrap-selectpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/bootstrap-tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/chartist.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/jquery-jvectormap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/jquery.bootstrap-wizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/jquery.tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/perfect-scrollbar.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/js/plugins/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statements.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/watterDrop.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +171,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/Task/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" break_at_first_line="true" />
@@ -42,6 +209,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\first" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="hello.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/first/first/hello.php" useBuiltInWebServerPort="true">
@@ -127,7 +299,51 @@
       <workItem from="1610117902578" duration="231000" />
       <workItem from="1610183913217" duration="13000" />
       <workItem from="1610343529416" duration="32000" />
+      <workItem from="1610435288146" duration="10054000" />
+      <workItem from="1610514482782" duration="175000" />
+      <workItem from="1610514780655" duration="458000" />
+      <workItem from="1610515287290" duration="2381000" />
+      <workItem from="1610598759477" duration="1376000" />
+      <workItem from="1610686925842" duration="1953000" />
+      <workItem from="1610775626797" duration="5568000" />
+      <workItem from="1610801651727" duration="705000" />
+      <workItem from="1610944711881" duration="1233000" />
+      <workItem from="1610955868828" duration="2839000" />
+      <workItem from="1610964288325" duration="1275000" />
+      <workItem from="1610967049420" duration="14000" />
+      <workItem from="1611059281244" duration="2647000" />
+      <workItem from="1611215950334" duration="16043000" />
+      <workItem from="1611324837417" duration="9000" />
+      <workItem from="1611576766133" duration="7066000" />
+      <workItem from="1611751314751" duration="5454000" />
+      <workItem from="1611812269148" duration="2205000" />
+      <workItem from="1611899918514" duration="11000" />
+      <workItem from="1611900506029" duration="3408000" />
+      <workItem from="1611934312291" duration="66000" />
+      <workItem from="1611983315129" duration="9105000" />
     </task>
+    <task id="LOCAL-00001" summary="One Zero commited">
+      <created>1610431003488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610431003488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Swap">
+      <created>1610791972188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610791972188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="25/01/2021 Keypad and online tests">
+      <created>1611584690803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611584690803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +361,12 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="One Zero commited" />
+    <MESSAGE value="Swap" />
+    <MESSAGE value="25/01/2021 Keypad and online tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/01/2021 Keypad and online tests" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="263" y="19" key="#CLI_Interpreters" timestamp="1609738778969">
       <screen x="0" y="0" width="1366" height="728" />
@@ -158,10 +380,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609737557723" />
-    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1609737485323">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1610431419857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609737485323" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610431419857" />
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1610967054855">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610967054855" />
     <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1609738717086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,10 +436,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609738717087" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1610023374235">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611812291903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610023374235" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1611812291903" />
+    <state x="562" y="66" key="RollbackChangesDialog" timestamp="1610791854357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="562" y="66" key="RollbackChangesDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610791854357" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610431183138">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610431183138" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609739132442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
