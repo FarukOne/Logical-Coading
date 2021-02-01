@@ -9,16 +9,19 @@ class StatementsSeeder extends  AbstractSeed
     {
         $file = fopen(dirname(__FILE__).DS.'statements.csv', 'r');
         $data=[];
+        $n=0;
         while (($column = fgetcsv($file)) !== FALSE){
+            $newTimestamp = strtotime('+'.$n.'minutes', strtotime('2019-11-17 05:05'));
                $data[] =[
-                       'transactionId'   => $column[0],
+                       'transaction_id'  => $column[0],
                        'narration'       => $column[1],
                        'purpose'         => $column[2],
-                       'deliverTo'       => $column[3],
+                       'deliver_to'      => $column[3],
                        'amount'          => $column[4],
-                       'created'         => date('Y-m-d H:i:s'),
+                       'created'         => date('Y-m-d H:i:s', $newTimestamp),
                    ];
+            $n +=10;
         }
-        $this->insert('statements', $data);
+       $this->insert('statements', $data);
     }
 }
