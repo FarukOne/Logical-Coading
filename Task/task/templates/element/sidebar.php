@@ -13,21 +13,22 @@
                 </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="./Users">
+                <a class="nav-link" href="/Users">
                     <i class="material-icons">person</i>
                     <p>User Profile</p>
                 </a>
+
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="./Statements">
+                <a class="nav-link" href="/Statements">
                     <i class="material-icons">card_membership</i>
                     <p>Statements</p>
                 </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="./map.html">
+                <a class="nav-link" href="/Countries">
                     <i class="material-icons">location_ons</i>
-                    <p>Maps</p>
+                    <p>Countries</p>
                 </a>
             </li>
             <li class="nav-item ">

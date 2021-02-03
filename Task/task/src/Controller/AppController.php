@@ -58,6 +58,6 @@ class AppController extends Controller
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
-        $this->Authentication->addUnauthenticatedActions(['index', 'view', 'add']);
+        $this->Authentication->addUnauthenticatedActions(['login']);
     }
 }

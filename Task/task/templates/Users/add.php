@@ -4,27 +4,33 @@
  * @var \App\Model\Entity\User $user
  */
 ?>
-<div class="row">
-    <aside class="column">
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Users'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-        </div>
-    </aside>
-    <div class="column-responsive column-80">
-        <div class="users form content">
-            <?= $this->Form->create($user) ?>
-            <fieldset>
-                <legend><?= __('Add User') ?></legend>
-                <?php
-                    echo $this->Form->control('name');
-                    echo $this->Form->control('email');
-                    echo $this->Form->control('password');
-                    echo $this->Form->control('role');
-                ?>
-            </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
-            <?= $this->Form->end() ?>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card" style="width: 50%; margin: auto;">
+                <div class="card-header">
+                    <legend class="text-info font-weight-bold"><?= __('Registration') ?></legend>
+                </div>
+                <div class="card-body">
+                    <?= $this->Flash->render() ?>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <?= $this->Form->create($user) ?>
+                            <fieldset>
+                                <?php
+                                echo $this->Form->control('name', [ 'label' => ['class' => 'text-primary'], 'class'=>'form-control']);
+                                echo $this->Form->control('email', ['label' => ['class' => 'text-primary'], 'class'=>'form-control', 'type'=>'email']);
+                                echo $this->Form->control('password', ['label' => ['class' => 'text-primary'], 'class'=>'form-control', 'type'=>'password']);
+                                echo $this->Form->control('role', ['label' => ['class' => 'text-primary'], 'class'=>'form-control', 'type'=>'text']);
+                                ?>
+                            </fieldset>
+                            <?= $this->Form->button('Submit', ['class'=>'btn btn-info']) ?>
+                            <?= $this->Html->link('Login', ['controller'=>'Users', 'action' => 'login'], ['class'=>'font-weight-bold']) ?>
+                            <?= $this->Form->end() ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

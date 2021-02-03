@@ -36,7 +36,7 @@ use Cake\Collection\CollectionInterface;
                         <td><?= h($user->email) ?></td>
                         <td><?= h($user->password) ?></td>
                         <td><?= h($user->role) ?></td>
-                        <td><?= (h($user->status)) ? 'Online' : 'Offline' ?></td>
+                        <td><?= (h($user->status)) ?'<span class="text-success">Online</span>' : '<span class="text-danger">Offline</span>' ?></td>
                         <td><?= h($user->created) ?></td>
                         <td><?= h($user->modified) ?></td>
                         <td class="actions">
@@ -52,7 +52,7 @@ use Cake\Collection\CollectionInterface;
     </div>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
+            <?= $this->Paginator->first('<< ' . __('first', )) ?>
             <?= $this->Paginator->prev('< ' . __('previous')) ?>
             <?= $this->Paginator->numbers() ?>
             <?= $this->Paginator->next(__('next') . ' >') ?>

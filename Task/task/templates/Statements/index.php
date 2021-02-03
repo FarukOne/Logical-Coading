@@ -7,47 +7,41 @@
 <div class="statements index content">
     <?= $this->Html->link(__('New Statement'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Statements') ?></h3>
-    <div class="table-responsive">
-        <table>
-            <thead>
-                <tr>
-                    <th><?= $this->Paginator->sort('id') ?></th>
-                    <th><?= $this->Paginator->sort('transactionId') ?></th>
-                    <th><?= $this->Paginator->sort('narration') ?></th>
-                    <th><?= $this->Paginator->sort('purpose') ?></th>
-                    <th><?= $this->Paginator->sort('amount') ?></th>
-                    <th><?= $this->Paginator->sort('deliverTo') ?></th>
-                    <th><?= $this->Paginator->sort('created') ?></th>
-                    <th class="actions"><?= __('Actions') ?></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($statements as $statement): ?>
-                <tr>
-                    <td><?= $this->Number->format($statement->id) ?></td>
-                    <td><?= h($statement->transactionId) ?></td>
-                    <td><?= h($statement->narration) ?></td>
-                    <td><?= h($statement->purpose) ?></td>
-                    <td><?= $this->Number->format($statement->amount) ?></td>
-                    <td><?= $this->Number->format($statement->deliverTo) ?></td>
-                    <td><?= h($statement->created) ?></td>
-                    <td class="actions">
-                        <?= $this->Html->link(__('View'), ['action' => 'view', $statement->id]) ?>
-                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $statement->id]) ?>
-                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $statement->id], ['confirm' => __('Are you sure you want to delete # {0}?', $statement->id)]) ?>
-                    </td>
-                </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table">
+                <thead class=" text-primary">
+                    <tr>
+                        <th><?= $this->Paginator->sort('transaction_id') ?></th>
+                        <th><?= $this->Paginator->sort('narration') ?></th>
+                        <th><?= $this->Paginator->sort('purpose') ?></th>
+                        <th><?= $this->Paginator->sort('amount') ?></th>
+                        <th><?= $this->Paginator->sort('deliver_to') ?></th>
+                        <th><?= $this->Paginator->sort('created') ?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($statements as $statement): ?>
+                    <tr>
+                        <td><?= h($statement->transaction_id) ?></td>
+                        <td><?= h($statement->narration) ?></td>
+                        <td><?= h($statement->purpose) ?></td>
+                        <td><?= $this->Number->currency($statement->amount, 'INR') ?></td>
+                        <td><?= h($statement->deliver_to)?></td>
+                        <td><?= h($statement->created) ?></td>
+                    </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('first', ['class'=>"page-item"])) ?>
+            <?= $this->Paginator->prev('< ' . __('previous', ['class'=>"page-item"])) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('next') . ' >', ['class'=>"page-item"]) ?>
+            <?= $this->Paginator->last(__('last') . ' >>', ['class'=>"page-item"]) ?>
         </ul>
         <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
     </div>

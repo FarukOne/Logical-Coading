@@ -13,11 +13,10 @@ class StatementsSeeder extends  AbstractSeed
         while (($column = fgetcsv($file)) !== FALSE){
             $newTimestamp = strtotime('+'.$n.'minutes', strtotime('2019-11-17 05:05'));
                $data[] =[
-                       'transaction_id'  => $column[0],
-                       'narration'       => $column[1],
-                       'purpose'         => $column[2],
-                       'deliver_to'      => $column[3],
-                       'amount'          => $column[4],
+                       'narration'       => $column[0],
+                       'purpose'         => $column[1],
+                       'deliver_to'      => $column[2],
+                       'amount'          => $column[3],
                        'created'         => date('Y-m-d H:i:s', $newTimestamp),
                    ];
             $n +=10;

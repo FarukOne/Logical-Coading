@@ -25,9 +25,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae59bba0-1fd2-427f-ad82-4d21ac279653" name="Default Changelist" comment="Swap">
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Countries/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/templates/Countries/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/images/20210202073945india-flag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/images/20210202104621Bangladesh.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/images/20210202104915bangladesh.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/task/webroot/img/images/20210202105041nepal-flag.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/config/Migrations/20210129103207_CreateStatements.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/config/Migrations/20210129103207_CreateStatements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/config/Migrations/schema-dump-default.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/config/Migrations/schema-dump-default.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task/task/config/Seeds/StatementsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/config/Seeds/StatementsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/config/Seeds/UsersSeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/config/Seeds/UsersSeed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/config/Seeds/statements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/config/Seeds/statements.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/src/Controller/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/src/Controller/StatementsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/src/Controller/StatementsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/src/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/src/Controller/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/src/Model/Table/StatementsTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/src/Model/Table/StatementsTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Statements/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/Statements/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Statements/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Statements/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/Statements/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Statements/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Users/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/Users/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Users/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/Users/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/Users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/Users/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task/task/templates/element/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/element/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/task/templates/layout/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/Task/task/templates/layout/default.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +83,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1magxwLsJPlRpwVP9TzmEqDVbpb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DUMMY" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Task/task/templates/Countries" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\first\Task\task\templates\Countries" />
       <recent name="D:\first" />
     </key>
   </component>
@@ -184,7 +210,9 @@
       <workItem from="1611900506029" duration="3408000" />
       <workItem from="1611934312291" duration="66000" />
       <workItem from="1611983315129" duration="12172000" />
-      <workItem from="1612154922043" duration="4229000" />
+      <workItem from="1612154922043" duration="37017000" />
+      <workItem from="1612241812324" duration="33355000" />
+      <workItem from="1612328076692" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="One Zero commited">
       <created>1610431003488</created>
@@ -207,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611584690803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1/2/2021 Commit">
+      <created>1612159362338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612159362339</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1/2/2021 Commit">
+      <created>1612159368580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612159368580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,11 +268,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="One Zero commited" />
     <MESSAGE value="Swap" />
     <MESSAGE value="25/01/2021 Keypad and online tests" />
     <MESSAGE value="1/2/2021 pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/2/2021 pull" />
+    <MESSAGE value="1/2/2021 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/2/2021 Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="19" key="#CLI_Interpreters" timestamp="1609738778969">
@@ -301,25 +345,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609738717087" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611812291903">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1612268401854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1611812291903" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1612268401854" />
     <state x="562" y="66" key="RollbackChangesDialog" timestamp="1610791854357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="562" y="66" key="RollbackChangesDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610791854357" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610431183138">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612159374908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1610431183138" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1612159374908" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609739132442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609739132442" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609917389980">
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612180560811">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1609917389980" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1612180560811" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1612166315407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1612166315407" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612250901146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1612250901146" />
   </component>
 </project>

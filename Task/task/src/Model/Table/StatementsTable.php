@@ -44,7 +44,6 @@ class StatementsTable extends Table
         $this->setTable('statements');
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
-
         $this->addBehavior('Timestamp');
     }
 
@@ -61,10 +60,8 @@ class StatementsTable extends Table
             ->allowEmptyString('id', null, 'create');
 
         $validator
-            ->scalar('transaction_id')
-            ->maxLength('transaction_id', 255)
-            ->requirePresence('transaction_id', 'create')
-            ->notEmptyString('transaction_id');
+            ->integer('transaction_id')
+            ->allowEmptyString('transaction_id', null, 'create');
 
         $validator
             ->scalar('narration')
@@ -84,7 +81,8 @@ class StatementsTable extends Table
             ->notEmptyString('amount');
 
         $validator
-            ->integer('deliver_to')
+            ->scalar('deliver_to')
+            ->maxLength('deliver_to', 255)
             ->requirePresence('deliver_to', 'create')
             ->notEmptyString('deliver_to');
 

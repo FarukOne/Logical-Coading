@@ -15,10 +15,8 @@ class CreateStatements extends AbstractMigration
     public function change()
     {
         $table = $this->table('statements');
-        $table->addColumn('transactionId', 'string', [
-            'default' => null,
-            'limit' => 255,
-            'null' => false,
+        $table->addColumn('transaction_id', 'integer', [
+            'autoIncrement' => true,
         ]);
         $table->addColumn('narration', 'string', [
             'default' => null,
@@ -34,8 +32,9 @@ class CreateStatements extends AbstractMigration
             'default' => null,
             'null' => false,
         ]);
-        $table->addColumn('deliverTo', 'integer', [
+        $table->addColumn('deliver_to', 'string', [
             'default' => null,
+            'limit' => 255,
             'null' => false,
         ]);
         $table->addColumn('created', 'datetime', [

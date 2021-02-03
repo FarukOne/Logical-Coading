@@ -32,6 +32,10 @@ $cakeDescription = 'My Dashboard';
     <?php echo $this->Html->meta('icon') ?>
     <?php echo $this->Html->css(['css.css']);?>
     <?php echo $this->Html->css(['font-awesome.min.css']);?>
+
+    <?php echo $this->Html->script(['core/jquery.min.js']);?>
+    <?php echo $this->Html->script(['core/popper.min.js']);?>
+    <?php echo $this->Html->script(['core/bootstrap-material-design.min.js']);?>
     <!-- Material Kit CSS -->
     <?php echo $this->Html->css(['material-dashboard.css?v=2.1.2']);?>
 </head>

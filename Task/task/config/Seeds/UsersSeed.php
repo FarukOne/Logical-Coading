@@ -10,7 +10,7 @@ class UsersSeed extends AbstractSeed
           [
               'name'        => 'Faruk',
               'email'       => 'faruk@gmail.com',
-              'password'    => sha1('123456'),
+              'password'    => hash('sha256', '123456'),
               'role'        => 'Admin',
               'created'     => date('Y-m-d H:i:s'),
               'modified'    => date('Y-m-d H:i:s'),
